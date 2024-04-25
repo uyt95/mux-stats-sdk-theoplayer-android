@@ -85,8 +85,8 @@ dependencies {
   androidTestUtil "androidx.test:orchestrator:1.4.2"
 
   // Test against a specific version for consistent tests
-  implementation 'com.theoplayer.theoplayer-sdk-android:integration-ads-ima:5.9.1'
-  implementation 'com.theoplayer.theoplayer-sdk-android:core:5.9.1'
+  implementation "com.theoplayer.theoplayer-sdk-android:integration-ads-ima:${project.ext.theoplayerVersion}"
+  implementation "com.theoplayer.theoplayer-sdk-android:core:${project.ext.theoplayerVersion}"
 
   androidTestImplementation "androidx.test:rules:1.5.0"
   // Optional -- Hamcrest library
